@@ -1,48 +1,57 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body
+{
     background-color: black;
     color: white;
 }
 
-.container{
+.container
+{
     text-align: center;
     margin-top: 5%;
 }
 
-.content{
+.content
+{
     display: flex;
     justify-content: space-around;
 }
 
-ul{
+ul
+{
     list-style-type: none;
 }
 
-.social{
+.social
+{
     margin-top: 5%;
     text-align: center;
     margin-right: 2%;
 
 }
 
-img{
+img
+{
     width: 35px;
     color: whitesmoke;
     margin-left: 2%;
 }
 
-h3{
+h3
+{
     font-family:'Georgia, 'Times New Roman', Times, serif' ;
     letter-spacing: 2px;
     font-size: 2rem;
 }
 
-ul li{
+ul li
+{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1rem;
     line-height: 2.6rem;
@@ -51,18 +60,21 @@ ul li{
     cursor: pointer;
 }
 
-ul li:hover{
+ul li:hover
+{
     text-decoration: underline;
     text-decoration-style: solid;
     text-decoration-color: yellow;
 }
 
-.copyright-content{
+.copyright-content
+{
     margin-top: 10%;
     text-align: center;
 }
 
-h4{
+h4
+{
     font-size: 1rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
